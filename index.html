@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #36c956;
+        }
+        section{
+            display: flex;
+        }
+        article {
+            margin: 5px;
+            padding: 25px;
+        }
+        
+        article.post {
+            background-color: blueviolet;
+        }
+        p.post{
+            font-weight: 900;
+        }
+        .post{
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .navigation-panel{
+            display: flex;
+            margin: 5px;
+            
+
+        }
+        .navigation-panel li{
+            margin-left: 10px;
+        }
+        .navigation-panel li a{
+            text-decoration: none;
+            color: rgb(223, 59, 59);
+            margin: auto 0;
+        }
+        .news{
+            margin:4px;
+            background-color: azure;
+        }
+        .news article{
+            background-color: rgb(248, 212, 66);
+            margin: 40px 20px;
+        }
+        .header{
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+    <header class="header" style="background-color: aqua;">
+        
+        <h1>НОВОСТИ24</h1>
+        <nav class="">
+            <ul class="navigation-panel" type="none">
+                <li>
+                    <a href="index.html">Главная</a>
+                </li>
+                <li>
+                    <a href="../articles/index.html">Статьи</a>
+                </li>
+                <li>
+                    <a href="../new/index.html">Новинки</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    это админ панель
+    <a href="../index.html">Вернуться назад</a>
+    
+    <section class="news">
+        <article>
+            новость 1
+        </article>
+        <article>
+            новость 2
+        </article>
+        <p class="post">
+
+        </p>
+    </section>
+    <section>
+        <article class="post">
+            статья 1
+        </article>
+        <article class="post">
+            статья 2
+        </article>
+        <article class="post">
+            статья 3
+        </article>
+    </section>
+    <footer style="background-color: bisque;">
+        это подвал
+    </footer>
+</body>
+</html>
